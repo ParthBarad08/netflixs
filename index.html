@@ -1,188 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Netflix India</title>
-    <link href="p.css" rel="stylesheet">
-    <link rel="image" type="image/x-icon" href="favicon.ico">
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Netflix India</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="p.css"/>
 </head>
 <body>
-    <div class="main">
-        <nav  > 
-            <span> <img src="logo.svg" alt="" height="40px"></span>
-            <div>
-                <button id="english">English</button>
-                <button id="signin">Sign In</button>
-            </div>
-        </nav>
-        <div class="blur"></div>
-        <div class="boxx">
-            <span>Enjoy big movies, hit series and more from $ 149.</span>
-            <span>Join today. Cancel anytime.</span>
-            <span>Ready to watch? Enter your email to create or restart your ,member.</span>
-            <div class="d">
-                <input id="enter" type="email" placeholder="Enter email">
-                <button id="get">Get Stated </button>
-            </div>
-        </div>
+  <!-- Navigation -->
+  <header>
+    <nav>
+      <img src="logo.svg" alt="Netflix Logo" />
+      <div>
+        <button>English</button>
+        <button>Sign In</button>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div>
+      <h1>Enjoy big movies, hit series and more from ₹149.</h1>
+      <p>Join today. Cancel anytime.</p>
+      <p>Ready to watch? Enter your email to create or restart your membership.</p>
+      <div>
+        <input type="email" placeholder="Enter email" />
+        <button>Get Started</button>
+      </div>
     </div>
-    <div class="sepration"></div>
+  </header>
 
-    <section class="first">
-        <div class="sec">
-            <div class="firstchild">Enjoy on your TV</div>
-            <span class="secondchild">watch-on stmart TVs, Playing,xbox, Cromeent, Apple
-            TV, Blu-lay players and more.</span>
-        </div>
-        <div class="secimg">
-            <img class="j" src="tv.png" alt="tv.png" height="400px" >           
-            <img class="i" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtp79GmRAXULjZtUpHP6MYlMo7-0zIHFsS0Q&s" alt="" height="215px">
-        </div>
-    </section>
-    <div class="sepration"></div>
+  <hr />
 
-    <section class="second">
-        <div class="">
-            <img class="" src="mobile.jpg" alt="tv.png" height="400px" >           
-        </div>
-        <div class="sec2">
-            <div class="firstchild2">Enjoy on your TV</div>
-            <span class="secondchild2">watch-on stmart TVs, Playing,xbox, Cromeent, Apple
-                TV, Blu-lay players and more.</span>
-        </div>
-    </section>
+  <!-- TV Section -->
+  <section>
+    <div>
+      <h2>Enjoy on your TV</h2>
+      <p>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+    </div>
+    <div>
+      <img src="tv.png" alt="TV" />
+      <img src="tv-video.gif" alt="Video" />
+    </div>
+  </section>
 
-    <div class="sepration"></div>
+  <hr />
 
-    <section class="third">
-        <div class="sec3">
-            <div class="firstchild3">Enjoy on your TV</div>
-            <span class="secondchild3">watch-on stmart TVs, Playing,xbox, Cromeent, Apple
-            TV, Blu-lay players and more.</span>
-        </div>
-        <div class="secimg3">
-            <img class="jjj" src="diwali.png" alt="tv.png" height="400px" >           
-            <video class="iii" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices-in.m4v" mute  auto play height="170px"></video>
-        </div>
-    </section>
+  <!-- Mobile Section -->
+  <section>
+    <div>
+      <img src="mobile.jpg" alt="Mobile" />
+    </div>
+    <div>
+      <h2>Download your shows to watch offline</h2>
+      <p>Save your favorites easily and always have something to watch.</p>
+    </div>
+  </section>
 
-    <div class="sepration"></div>
+  <hr />
 
-    <section class="second">
-        <div class="">
-            <img class="" src="https://occ-0-4023-2164.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABVxdX2WnFSp49eXb1do0euaj-F8upNImjofE77XStKhf5kUHG94DPlTiGYqPeYNtiox-82NWEK0Ls3CnLe3WWClGdiJP.png?r=5cf" alt="tv.png" height="400px" >           
-        </div>
-        <div class="sec2">
-            <div class="firstchild2">Enjoy on your TV</div>
-            <span class="secondchild2">watch-on stmart TVs, Playing,xbox, Cromeent, Apple
-                TV, Blu-lay players and more.</span>
-        </div>
-    </section>
+  <!-- Device Section -->
+  <section>
+    <div>
+      <h2>Watch everywhere</h2>
+      <p>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV without paying more.</p>
+    </div>
+    <div>
+      <img src="diwali.png" alt="Devices" />
+      <video autoplay muted loop>
+        <source src="devices.m4v" type="video/mp4" />
+      </video>
+    </div>
+  </section>
 
-    <div class="sepration"></div>
+  <hr />
 
-    <section class="freq">
-        <h2>Frequently Asked Question</h2>
-        <div class="box">
-            <span> What is Netflix?</span>
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 4V20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                <path d="M4 12H20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                </svg>
-        </div>
+  <!-- Kids Section -->
+  <section>
+    <div>
+      <img src="kids.png" alt="Kids" />
+    </div>
+    <div>
+      <h2>Create profiles for kids</h2>
+      <p>Send kids on adventures with their favorite characters in a space made just for them—free with your membership.</p>
+    </div>
+  </section>
 
-        <div class="box">
-            <span> What is Netflix?</span>
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 4V20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                <path d="M4 12H20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                </svg>
-        </div>
+  <hr />
 
-        <div class="box">
-            <span> What is Netflix?</span>
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 4V20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                <path d="M4 12H20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                </svg>
-        </div>
+  <!-- FAQ Section -->
+  <section>
+    <h2>Frequently Asked Questions</h2>
+    <div>What is Netflix? +</div>
+    <div>How much does Netflix cost? +</div>
+    <div>Where can I watch? +</div>
+    <div>How do I cancel? +</div>
+    <div>What can I watch on Netflix? +</div>
+  </section>
 
-        <div class="box">
-            <span> What is Netflix?</span>
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 4V20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                <path d="M4 12H20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                </svg>
-        </div>
-
-        <div class="box">
-            <span> What is Netflix?</span>
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 4V20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                <path d="M4 12H20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                </svg>
-        </div>
-
-        <div class="box">
-            <span> What is Netflix?</span>
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 4V20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                <path d="M4 12H20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                </svg>
-        </div>
-
-        <div class="box">
-            <span> What is Netflix?</span>
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 4V20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                <path d="M4 12H20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                </svg>
-        </div>
-        <br>
-        <section>
-            <div class="s">
-            <h6>Ready to watch? Enter your email to create or restart your membership.</h6>
-            <input id="enter1" type="email" placeholder="Enter email">
-            <button id="get1">Get Stated </button>
-            </div>
-        </section>
-    </section>
-<br><br>
-    <div class="sepration"></div>
-    <footer>
-        <div class="questions">
-            Questions? Call 000-800-919-1694
-        </div>
-        <div class="footer">
-            <div class="footer-item"> 
-                <a href="faq">Investor Relations</a>
-                <a href="faq">Jobs</a>
-                <a href="faq">Ways to Watch</a>
-                <a href="faq">Terms of Use</a>
-            </div>
-
-            <div class="footer-item"> 
-                <a href="faq">Help Centre</a>
-                <a href="faq">Account</a>
-                <a href="faq">Speed Test</a>
-                <a href="faq">Legal Notices</a>
-            </div>
-            <div class="footer-item">
-                <a href="faq">Media Centre</a>
-                <a href="faq">Privacy</a>
-                <a href="faq">Cookie Preferences</a> 
-                <a href="faq">Corporate</a>
-            </div>
-
-            <div class="footer-item">
-                <a href="faq">Contact Us</a>
-                <a href="faq">Speed Test</a> 
-                <a href="faq">Legal Notices</a> 
-                <a href="faq">Only on Netflix</a>
-            </div>
-        </div>
-    </footer>
+  <!-- Email Section -->
+  <section>
+    <p>Ready to watch? Enter your email to create or restart your membership.</p>
+    <div>
+      <input type="email" placeholder="Email address" />
+      <button>Get Started</button>
+    </div>
+  </section>
 </body>
-</html> 
+</html>
