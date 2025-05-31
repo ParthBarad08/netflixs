@@ -1,1 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Netflix India</title>
+  <link href="style.css" rel="stylesheet">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <!-- Navigation -->
+  <header class="main">
+    <nav class="nav">
+      <img src="logo.svg" alt="Netflix Logo" class="logo">
+      <div class="nav-buttons">
+        <button class="btn lang">English</button>
+        <button class="btn signin">Sign In</button>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="blur"></div>
+    <div class="hero-text">
+      <h1>Enjoy big movies, hit series and more from ₹149.</h1>
+      <p>Join today. Cancel anytime.</p>
+      <p>Ready to watch? Enter your email to create or restart your membership.</p>
+      <div class="input-group">
+        <input type="email" placeholder="Enter email" class="email">
+        <button class="btn get-started">Get Started</button>
+      </div>
+    </div>
+  </header>
+
+  <hr class="separator">
+
+  <!-- TV Section -->
+  <section class="feature">
+    <div class="text-block">
+      <h2>Enjoy on your TV</h2>
+      <p>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+    </div>
+    <div class="media-block">
+      <img src="tv.png" alt="TV" class="media">
+      <img src="tv-video.gif" alt="Video" class="overlay">
+    </div>
+  </section>
+
+  <hr class="separator">
+
+  <!-- Mobile Section -->
+  <section class="feature reverse">
+    <div class="media-block">
+      <img src="mobile.jpg" alt="Mobile" class="media">
+    </div>
+    <div class="text-block">
+      <h2>Download your shows to watch offline</h2>
+      <p>Save your favorites easily and always have something to watch.</p>
+    </div>
+  </section>
+
+  <hr class="separator">
+
+  <!-- Device Section -->
+  <section class="feature">
+    <div class="text-block">
+      <h2>Watch everywhere</h2>
+      <p>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV without paying more.</p>
+    </div>
+    <div class="media-block">
+      <img src="diwali.png" alt="Devices" class="media">
+      <video class="overlay" autoplay muted loop>
+        <source src="devices.m4v" type="video/mp4">
+      </video>
+    </div>
+  </section>
+
+  <hr class="separator">
+
+  <!-- Kids Section -->
+  <section class="feature reverse">
+    <div class="media-block">
+      <img src="kids.png" alt="Kids" class="media">
+    </div>
+    <div class="text-block">
+      <h2>Create profiles for kids</h2>
+      <p>Send kids on adventures with their favorite characters in a space made just for them—free with your membership.</p>
+    </div>
+  </section>
+
+  <hr class="separator">
+
+  <!-- FAQ Section -->
+  <section class="faq">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-item">What is Netflix? <span class="plus">+</span></div>
+    <div class="faq-item">How much does Netflix cost? <span class="plus">+</span></div>
+    <div class="faq-item">Where can I watch? <span class="plus">+</span></div>
+    <div class="faq-item">How do I cancel? <span class="plus">+</span></div>
+    <div class="faq-item">What can I watch on Netflix? <span class="plus">+</span></div>
+  </section>
+
+  <!-- Email Section -->
+  <section class="email-signup">
+    <p>Ready to watch? Enter your email to create or restart your membership.</p>
+    <div class="input-group">
+      <input type="email" placeholder="Email address" class="email">
+      <button class="btn get-started">Get Started</button>
+    </div>
+  </section>
+</body>
+</html>
 
